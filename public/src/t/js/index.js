@@ -40,6 +40,11 @@ const MusicList=[
   "//files.catbox.moe/ynbjdz.mp3",
   "//files.catbox.moe/g0omty.mp3",
   "//files.catbox.moe/2i51n1.mp3",
+  "//files.catbox.moe/3860mg.mp3",
+  "//files.catbox.moe/6oa5lf.mp3",
+  "//files.catbox.moe/jl15pv.mp3",
+  "//files.catbox.moe/1mydku.mp3",
+  "//files.catbox.moe/prliv8.mp3",
 ];
 let t=parseInt(localStorage.getItem('td')) || Math.floor(Math.random() * MusicList.length);
 const audio=new Audio(MusicList[t]);
